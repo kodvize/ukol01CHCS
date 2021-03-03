@@ -122,16 +122,15 @@ td {
 }
 
 .menu li {
-    display: inline-block;
+  display: inline-block;
 }
 
 .menu a {
-    display: inline-block;
-    color: rgb(255, 255, 255);/*odkaz uvnitř v menu - zde, měním barvu textu v menu*/
-    text-decoration: none;/*skryje mi odkazovou linku*/
-    padding: 30px 60px;/*tímto dáme menu od sebe, abychom viděli odsazení i zvrchu, 
-    musíme tomuto prvku dát display a to samé taky i u .menu li dáme display*/
-    border-radius: 20px 0 20px 0;
+  display: inline-block;
+  color: rgb(255, 255, 255);/*odkaz uvnitř v menu - zde, měním barvu textu v menu*/
+  text-decoration: none;/*skryje mi odkazovou linku*/
+  padding: 30px 60px;/*tímto dáme menu od sebe, abychom viděli odsazení i zvrchu, musíme tomuto prvku dát display a to samé taky i u .menu li dáme display*/
+  border-radius: 20px 0 20px 0;
 }
 
 /*změna podbarvení menu pseudotřídou*/
@@ -139,5 +138,4 @@ td {
 .menu a:focus,
 .menu a:active {
 background-color: rgb(78, 0, 114);
-
 }
