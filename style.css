@@ -56,7 +56,7 @@ h4 {
 }
 
 .pozadi {
-  background-image: url(obrazky/Anna2.jpg);
+  background-image: url("obrazky/Anna2.jpg"); /*dát v závorce do uvozovek*/
   padding: 50px 30px; /*a odsadíme paddingem text v hlavičce*/
   background-repeat: no-repeat; /*aby se obrázek neopakoval*/
   background-position: center; /*bude pozadí toho prvku vycentrované*/
